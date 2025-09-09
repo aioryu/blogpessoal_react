@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://blogpessoal-tz7r.onrender.com', 
+  baseURL: 'baseURL: import.meta.env.VITE_API_URL', 
 });
 
 export const cadastrarUsuario = async (
